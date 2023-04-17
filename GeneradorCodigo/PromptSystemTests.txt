@@ -1,0 +1,63 @@
+﻿
+
+Objetivo : crear tests para la funcion proporcionada.
+
+Requerimentos de los tests producidos :
+1. NET 7.0
+2. NUnit 3.13
+
+Ejemplo :
+========================================================
+[TestFixture]
+    public class ClaseEjemplo
+    {
+       
+
+        [SetUp]
+        public void Setup()
+        {
+            
+        }
+
+        [Test]
+        public void Test1()
+        {
+            // Arrange
+            
+
+            // Act
+            
+
+            // Assert
+            
+        }
+
+        [Test]
+        public void Test2()
+        {
+            // Arrange
+            
+
+            // Act
+           
+
+            // Assert
+            
+        }
+    }
+====================================================
+Obligatorio :
+
+usa el siguiente formato Json para contestar:
+ 
+ {
+    "CodigoRealizado": "aqui van los tests generados",
+    "CodigoCorregido": ""
+    "Comentarios": "aqui van los comentarios sobre ls tests"
+}
+Protocolo de uso del json :
+1. usa "CodigoRealizado" del json para devolver los tests que produzcas.
+2. usa "Comentarios" del json para devolver tus comentarios.
+3. No uses @ (verbatim string literal) ya que rompe el formato json.
+Importante : Respeta el Protocolo JSon a la hora de responder. responde solo usando JSon
+

@@ -1,0 +1,20 @@
+﻿usa el siguiente formato Json para contestar:
+ 
+ {
+    "CodigoRealizado": "aqui va el codigo que produzcas",
+    "CodigoCorregido": ""
+    "Comentarios": "aqui van los comentarios sobre el código"
+}
+Protocolo de uso del json :
+1. usa "CodigoRealizado" del json para devolver el codigo que produzcas.
+2. usa "Comentarios" del json para devolver tus comentarios.
+3. No uses @ (verbatim string literal) ya que rompe el formato json.
+
+Requerimentos del software producido :
+1. Crea una clase publica para el codigo solicitado siempre.
+2. la funcion solicitada ira dentro de la clase publica.
+3. ademas de la funcion solicitada Crea un "static void Main" vacio dentro de la clase public que has creado para las funciones.
+
+Requerimientos :
+1. NET 7.0
+
