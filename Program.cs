@@ -37,7 +37,7 @@ class Program
 
     static async Task Main(string[] args)
     {
-        var api = new OpenAIAPI("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");
+        var api = new OpenAIAPI("");
 
         //string problema = "El objetivo de la función es sumar dos números enteros.";
         string problema = "El objetivo de la función a crear es resolver una funcion de segundo grado\n";
